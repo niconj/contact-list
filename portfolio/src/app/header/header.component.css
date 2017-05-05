@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round');
 
+html, body { width: 100% }
+
 .header {
-    background:     rgb(245, 245, 245);
-    height: 200px;
+    /*background:     rgb(245, 245, 245);*/
+    background: red;
+    min-height: 200px;
+    width: 100%;
 }
 
 .header .name {
@@ -12,11 +16,18 @@
     font-weight: 700;
 }
 
+.header .title {
+    color: #49515a;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+}
+
 .header .profilePicture{
     width: 178px;
     height: 178px;
     margin: 10px 50px 0px 10px; 
-    border-radius: 50%;
+    border-radius: 30%;
     float: left;
 }
 

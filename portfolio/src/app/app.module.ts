@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { HeaderComponent } from './header/header.component';
 import { SkillsComponent } from './skills/skills.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    SkillsComponent
+    SkillsComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
@@ -17,6 +19,6 @@ import { SkillsComponent } from './skills/skills.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [HeaderComponent,SkillsComponent]
+  bootstrap: [HeaderComponent, SkillsComponent]
 })
 export class AppModule { } 

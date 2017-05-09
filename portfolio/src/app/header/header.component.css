@@ -4,7 +4,7 @@ html, body { width: 100% }
 
 .header {
     /*background:     rgb(245, 245, 245);*/
-    background: red;
+    /*background: lightslategrey;*/
     min-height: 200px;
     width: 100%;
 }
@@ -21,6 +21,13 @@ html, body { width: 100% }
     font-size: 18px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
+}
+
+.header .bio {
+    color: #49515a;
+    margin: 20px 0px 0px 0px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .header .profilePicture{

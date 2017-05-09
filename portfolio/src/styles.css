@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+    padding: 60px 75px 0px 75px;    
+    background-position: 0 44%;
+    background-image: "./assets/images/background.jpg";
+}
+

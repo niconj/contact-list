@@ -1,43 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round');
+@import "../../styles/variables.scss";
 
-html, body { width: 100% }
-
-.header {
-    /*background:     rgb(245, 245, 245);*/
-    /*background: lightslategrey;*/
-    min-height: 200px;
-    width: 100%;
+html, body {
+  width: 100%;
 }
 
-.header .name {
-    color: #49515a;
+.header {
+  min-height: 200px;
+  width: 100%;
+  .name {
+    color: $headertext;
     font-size: 28px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
-}
-
-.header .title {
-    color: #49515a;
+  }
+  .title {
+    color: $headertext;
     font-size: 18px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
-}
-
-.header .bio {
-    color: #49515a;
+  }
+  .bio {
+    color: $headertext;
     margin: 20px 0px 0px 0px;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
-}
-
-.header .profilePicture{
+  }
+  .profilePicture {
     width: 178px;
     height: 178px;
-    margin: 10px 50px 0px 10px; 
+    margin: 10px 50px 0px 10px;
     border-radius: 30%;
     float: left;
-}
-
-.header .content {
+  }
+  .content {
     padding: 30px 0px 0px 0px;
+  }
 }

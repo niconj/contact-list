@@ -1,7 +1,7 @@
 <div class="social-container">
   <ul>
-    <li *ngFor="let network of networks">
-      {{network.name}} - {{network.link}}
+    <li class="socialList" *ngFor="let network of networks">       
+      <a target="_blank" href="{{network.link}}">{{network.name}}</a>
     </li>
   </ul>
 </div>

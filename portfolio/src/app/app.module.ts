@@ -14,11 +14,11 @@ import { SocialComponent } from './social/social.component';
     SocialComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     FormsModule,
     HttpModule
   ],
   providers: [],
-  bootstrap: [HeaderComponent, SkillsComponent]
+  bootstrap: [HeaderComponent, SkillsComponent, SocialComponent]
 })
 export class AppModule { } 

@@ -1,5 +1,6 @@
+import { GithubService } from './../../services/github.service';
 import { Component } from '@angular/core';
-import { SocialService } from '../../services/social/social.service'
+import { SocialService } from '../../services/social.service'
 
 @Component({
   selector: 'app-social',
@@ -15,5 +16,3 @@ export class SocialComponent {
     this.networks = socialService.getSocialNetworks();
    }
 }
-
-

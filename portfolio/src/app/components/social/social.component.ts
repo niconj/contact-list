@@ -1,4 +1,3 @@
-import { GithubService } from './../../services/github.service';
 import { Component } from '@angular/core';
 import { SocialService } from '../../services/social.service'
 
@@ -13,6 +12,7 @@ export class SocialComponent {
    networks = [];
  
    constructor(private socialService: SocialService){
+     console.log("socialcomponent constructor");
     this.networks = socialService.getSocialNetworks();
    }
 }

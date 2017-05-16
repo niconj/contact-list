@@ -1,14 +1,18 @@
+import { Observable } from 'rxjs/Observable';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/map';
+
+
 @Injectable()
 export class GithubService {
-  repositories = [];
 
-  getRepositories() { return this.repositories; }
+  constructor(private http: Http) { }
 
-  constructor(http: Http) { 
-    http.get('https://api.github.com/users/niconj/repos')
-        .subscribe(result => this.repositories = result.json());
+  getRepositories() {
+    return this.http.get('https://api.github.com/users/niconj/repos')
+               .map(result => result.json());
   }
 }

@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round');
 @import "../../../styles/variables.scss";
 
-.repo-container {
-    border: red;
+.github-container {
+    background: green;
+}
+
+.repo-element {
+    border: 1px solid #54718E;
     border-style: solid;
     width: 30%;
-    display: -webkit-inline-box;
+    display: inline-block;
+    margin-right: 4%;
+    background: #49515a;
+    border-radius: 15px;
+}
+
+.repo-container {
+    display: flex;
+}
+
+.repo-header {
+    margin: 0px 0px 0px 0px;
+}
+
+.repo-language {
+    text-align: right;
 }

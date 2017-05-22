@@ -1,8 +1,10 @@
-<div>
-  <h2>Some of my projects</h2>
-  <div class="repo-container" *ngFor="let repo of repositories"> 
-    <h2>{{repo.name}}</h2>
-    <div>{{repo.description}}</div>
-    <div>{{repo.language}}</div>
+<div class="github-container">
+  <div>Some of my projects</div>
+  <div class="repo-container">  
+    <div class="repo-element" *ngFor="let repo of repositories"> 
+      <h2 class="repo-header">{{repo.name}}</h2>
+      <div>{{repo.description}}</div>
+      <div class="repo-language">{{repo.language}}</div>
+    </div>
   </div>
 </div>

@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./variables.scss";
+@import "./breakpoints.scss";
 
-
-
+body, html {
+    
+    @include for-desktop-only {
+        margin: 0px 0px 0px 0px;
+        height: 100%;
+    }
+}

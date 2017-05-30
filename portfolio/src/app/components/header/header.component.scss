@@ -8,15 +8,17 @@ html, body {
 .header {
   min-height: 200px;
   width: 100%;
+  padding-top: 70px;
+
   .name {
     color: $headertext;
-    font-size: 28px;
+    font-size: 23px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
   }
   .title {
     color: $headertext;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
   }
@@ -27,13 +29,11 @@ html, body {
     font-family: 'Varela Round', sans-serif;
   }
   .profilePicture {
-    width: 178px;
-    height: 178px;
-    margin: 10px 50px 0px 10px;
-    border-radius: 30%;
-    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   }
   .content {
-    padding: 30px 0px 0px 0px;
+    //padding: 30px 0px 0px 0px;
   }
 }

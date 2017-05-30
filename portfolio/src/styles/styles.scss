@@ -3,9 +3,34 @@
 @import "./breakpoints.scss";
 
 body, html {
-    
-    @include for-desktop-only {
-        margin: 0px 0px 0px 0px;
-        height: 100%;
-    }
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    // @include for-desktop-only {
+    //     height: 100%;
+    // }
+}
+
+body {
+    background: url("../assets/images/background.jpg") repeat-x center top fixed;
+    background-position: 0 60%;
+}
+
+.main-header {
+    height: 400px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.nico {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 3;
+    background-color: lightgreen;
+    margin-top: 400px;
 }

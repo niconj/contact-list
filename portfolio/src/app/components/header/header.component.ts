@@ -1,3 +1,4 @@
+import { SocialComponent } from './../social/social.component';
 import { Component } from '@angular/core';
 
 @Component({

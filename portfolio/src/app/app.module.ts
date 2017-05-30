@@ -24,6 +24,6 @@ import { HttpModule } from '@angular/http';
     HttpModule
   ],
   providers: [],
-  bootstrap: [ContainerComponent]
+  bootstrap: [HeaderComponent]
 })
-export class AppModule { } 
+export class AppModule { };

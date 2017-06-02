@@ -1,3 +1,4 @@
+import { BioComponent } from './components/bio/bio.component';
 import { SocialComponent } from './components/social/social.component';
 import { GithubComponent } from './components/github/github.component';
 import { SkillsComponent } from './components/skills/skills.component';
@@ -16,10 +17,11 @@ import { HttpModule } from '@angular/http';
     SocialComponent,
     GithubComponent,
     HeaderComponent,
-    SkillsComponent
+    SkillsComponent,
+    BioComponent
   ],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     FormsModule,
     HttpModule
   ],

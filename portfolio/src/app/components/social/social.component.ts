@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { SocialService } from '../../services/social.service'
+import { SocialService } from '../../services/social.service';
+
 
 @Component({
   selector: 'app-social',
@@ -10,7 +11,6 @@ import { SocialService } from '../../services/social.service'
 
 export class SocialComponent {
    networks = [];
- 
    constructor(private socialService: SocialService) {
     this.networks = socialService.getSocialNetworks();
    }
